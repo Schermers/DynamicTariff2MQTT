@@ -1,0 +1,1762 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Collections.Hashtable</T>
+      <T>System.Object</T>
+    </TN>
+    <DCT>
+      <En>
+        <S N="Key">electric</S>
+        <Obj N="Value" RefId="1">
+          <TNRef RefId="0" />
+          <DCT>
+            <En>
+              <S N="Key">MDE</S>
+              <Obj N="Value" RefId="2">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="3">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "MDE": 0.226626_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "MDE": 0.222839_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "MDE": 0.221932_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "MDE": 0.216063_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "MDE": 0.222258_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "MDE": 0.199401_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "MDE": 0.173628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "MDE": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "MDE": 0.159834_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "MDE": 0.16799_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "MDE": 0.179557_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "MDE": 0.209106_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "MDE": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.314267</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "MDE": 0.314267_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "MDE": 0.240154_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "MDE": 0.249181_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "MDE": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "MDE": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "MDE": 0.249084_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "MDE": 0.269739_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "MDE": 0.295596_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "MDE": 0.314267_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "MDE": 0.290635_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "MDE": 0.273417_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "MDE": 0.26583_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "MDE": 0.252157_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.233527</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="4">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.263914</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "MDE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "MDE": 0.255824_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "MDE": 0.253404_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "MDE": 0.240977_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "MDE": 0.230075_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "MDE": 0.212905_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "MDE": 0.241134_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "MDE": 0.223722_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "MDE": 0.216015_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "MDE": 0.216426_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "MDE": 0.217685_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "MDE": 0.235217_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "MDE": 0.238968_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "MDE": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "MDE": 0.27113_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "MDE": 0.285215_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "MDE": 0.288578_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "MDE": 0.264257_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "MDE": 0.28179_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "MDE": 0.318187_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "MDE": 0.339229_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "MDE": 0.348316_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "MDE": 0.321297_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "MDE": 0.284985_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "MDE": 0.281137_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "MDE": 0.267452_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "MDE": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "MDE": 0.212905_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.28179</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "MDE": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.318187</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.212905</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">VON</S>
+              <Obj N="Value" RefId="5">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="6">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "VON": 0.236906_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "VON": 0.233119_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "VON": 0.232211_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "VON": 0.226343_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "VON": 0.232538_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "VON": 0.209681_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "VON": 0.183908_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "VON": 0.171808_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "VON": 0.170114_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "VON": 0.178269_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "VON": 0.189837_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "VON": 0.219385_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.170114</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "VON": 0.170114_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.324546</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "VON": 0.324546_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "VON": 0.250434_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "VON": 0.25946_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "VON": 0.282196_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "VON": 0.282196_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "VON": 0.259364_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "VON": 0.280018_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "VON": 0.305876_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "VON": 0.324546_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "VON": 0.300915_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "VON": 0.283697_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "VON": 0.27611_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "VON": 0.262437_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.243807</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="7">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.274193</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "VON": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "VON": 0.266103_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "VON": 0.263683_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "VON": 0.251257_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "VON": 0.240354_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "VON": 0.223185_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "VON": 0.251414_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "VON": 0.234002_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "VON": 0.226294_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "VON": 0.226706_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "VON": 0.227964_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "VON": 0.245497_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "VON": 0.249248_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.358596</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "VON": 0.170114_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.358596</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "VON": 0.28141_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "VON": 0.295494_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "VON": 0.298858_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "VON": 0.274537_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "VON": 0.29207_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "VON": 0.328467_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "VON": 0.349509_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "VON": 0.358596_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "VON": 0.331576_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "VON": 0.295264_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "VON": 0.291416_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "VON": 0.277731_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "VON": 0.358596_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "VON": 0.223185_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.29207</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.170114</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "VON": 0.358596_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.328467</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.223185</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">AIP</S>
+              <Obj N="Value" RefId="8">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="9">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "AIP": 0.235696_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "AIP": 0.231909_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "AIP": 0.231001_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "AIP": 0.225133_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "AIP": 0.231328_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "AIP": 0.208471_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "AIP": 0.182698_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "AIP": 0.170598_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "AIP": 0.168904_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "AIP": 0.177059_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "AIP": 0.188627_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "AIP": 0.218175_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.168904</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "AIP": 0.168904_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.323336</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "AIP": 0.323336_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "AIP": 0.249224_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "AIP": 0.25825_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "AIP": 0.280986_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "AIP": 0.280986_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "AIP": 0.258154_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "AIP": 0.278808_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "AIP": 0.304666_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "AIP": 0.323336_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "AIP": 0.299705_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "AIP": 0.282487_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "AIP": 0.2749_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "AIP": 0.261227_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.242597</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="10">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.272983</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "AIP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "AIP": 0.264893_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "AIP": 0.262473_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "AIP": 0.250047_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "AIP": 0.239144_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "AIP": 0.221975_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "AIP": 0.250204_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "AIP": 0.232792_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "AIP": 0.225084_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "AIP": 0.225496_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "AIP": 0.226754_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "AIP": 0.244287_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "AIP": 0.248038_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.357386</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "AIP": 0.168904_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.357386</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "AIP": 0.2802_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "AIP": 0.294284_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "AIP": 0.297648_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "AIP": 0.273327_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "AIP": 0.29086_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "AIP": 0.327257_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "AIP": 0.348299_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "AIP": 0.357386_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "AIP": 0.330366_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "AIP": 0.294054_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "AIP": 0.290206_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "AIP": 0.276521_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "AIP": 0.357386_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "AIP": 0.221975_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.29086</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.168904</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "AIP": 0.357386_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.327257</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.221975</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">GSL</S>
+              <Obj N="Value" RefId="11">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="12">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "GSL": 0.226626_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "GSL": 0.222839_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "GSL": 0.221932_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "GSL": 0.216063_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "GSL": 0.222258_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "GSL": 0.199401_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "GSL": 0.173628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "GSL": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "GSL": 0.159834_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "GSL": 0.16799_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "GSL": 0.179557_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "GSL": 0.209106_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "GSL": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.314267</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "GSL": 0.314267_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "GSL": 0.240154_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "GSL": 0.249181_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "GSL": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "GSL": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "GSL": 0.249084_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "GSL": 0.269739_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "GSL": 0.295596_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "GSL": 0.314267_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "GSL": 0.290635_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "GSL": 0.273417_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "GSL": 0.26583_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "GSL": 0.252157_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.233527</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="13">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.263914</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "GSL": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "GSL": 0.255824_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "GSL": 0.253404_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "GSL": 0.240977_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "GSL": 0.230075_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "GSL": 0.212905_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "GSL": 0.241134_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "GSL": 0.223722_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "GSL": 0.216015_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "GSL": 0.216426_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "GSL": 0.217685_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "GSL": 0.235217_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "GSL": 0.238968_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "GSL": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "GSL": 0.27113_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "GSL": 0.285215_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "GSL": 0.288578_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "GSL": 0.264257_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "GSL": 0.28179_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "GSL": 0.318187_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "GSL": 0.339229_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "GSL": 0.348316_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "GSL": 0.321297_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "GSL": 0.284985_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "GSL": 0.281137_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "GSL": 0.267452_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "GSL": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "GSL": 0.212905_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.28179</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "GSL": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.318187</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.212905</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">ZP</S>
+              <Obj N="Value" RefId="14">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="15">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "ZP": 0.208446_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "ZP": 0.204659_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "ZP": 0.203751_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "ZP": 0.197883_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "ZP": 0.204078_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "ZP": 0.181221_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "ZP": 0.155448_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "ZP": 0.143348_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "ZP": 0.141654_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "ZP": 0.149809_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "ZP": 0.161377_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "ZP": 0.190925_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.141654</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "ZP": 0.141654_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.296086</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "ZP": 0.296086_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "ZP": 0.221974_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "ZP": 0.231_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "ZP": 0.253736_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "ZP": 0.253736_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "ZP": 0.230903_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "ZP": 0.251558_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "ZP": 0.277416_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "ZP": 0.296086_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "ZP": 0.272455_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "ZP": 0.255237_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "ZP": 0.24765_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "ZP": 0.233977_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.215347</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="16">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.245733</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZP": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "ZP": 0.237643_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "ZP": 0.235223_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "ZP": 0.222796_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "ZP": 0.211894_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "ZP": 0.194724_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "ZP": 0.222954_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "ZP": 0.205542_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "ZP": 0.197834_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "ZP": 0.198246_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "ZP": 0.199504_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "ZP": 0.217037_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "ZP": 0.220788_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.330136</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "ZP": 0.141654_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.330136</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "ZP": 0.25295_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "ZP": 0.267034_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "ZP": 0.270398_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "ZP": 0.246077_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "ZP": 0.26361_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "ZP": 0.300007_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "ZP": 0.321048_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "ZP": 0.330136_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "ZP": 0.303116_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "ZP": 0.266804_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "ZP": 0.262956_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "ZP": 0.249271_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "ZP": 0.330136_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "ZP": 0.194724_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.26361</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.141654</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "ZP": 0.330136_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.300007</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.194724</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">Exchange</S>
+              <Obj N="Value" RefId="17">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="18">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "Exchange": 0.0438_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "Exchange": 0.04067_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "Exchange": 0.03992_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "Exchange": 0.03507_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "Exchange": 0.04019_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "Exchange": 0.0213_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "Exchange": 0.0_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "Exchange": -0.01_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "Exchange": -0.0114_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "Exchange": -0.00466_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "Exchange": 0.0049_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "Exchange": 0.02932_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">-0.0114</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "Exchange": -0.0114_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.11623</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "Exchange": 0.11623_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "Exchange": 0.05498_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "Exchange": 0.06244_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "Exchange": 0.08123_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "Exchange": 0.08123_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "Exchange": 0.06236_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "Exchange": 0.07943_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "Exchange": 0.1008_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "Exchange": 0.11623_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "Exchange": 0.0967_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "Exchange": 0.08247_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "Exchange": 0.0762_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "Exchange": 0.0649_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.049503</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="19">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.074616</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "Exchange": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "Exchange": 0.06793_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "Exchange": 0.06593_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "Exchange": 0.05566_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "Exchange": 0.04665_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "Exchange": 0.03246_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "Exchange": 0.05579_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "Exchange": 0.0414_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "Exchange": 0.03503_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "Exchange": 0.03537_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "Exchange": 0.03641_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "Exchange": 0.0509_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "Exchange": 0.054_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.14437</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "Exchange": -0.0114_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.14437</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "Exchange": 0.08058_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "Exchange": 0.09222_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "Exchange": 0.095_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "Exchange": 0.0749_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "Exchange": 0.08939_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "Exchange": 0.11947_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "Exchange": 0.13686_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "Exchange": 0.14437_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "Exchange": 0.12204_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "Exchange": 0.09203_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "Exchange": 0.08885_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "Exchange": 0.07754_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "Exchange": 0.14437_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "Exchange": 0.03246_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.08939</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">-0.0114</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "Exchange": 0.14437_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.11947</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.03246</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">ANWB</S>
+              <Obj N="Value" RefId="20">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="21">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "ANWB": 0.226626_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "ANWB": 0.222839_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "ANWB": 0.221932_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "ANWB": 0.216063_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "ANWB": 0.222258_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "ANWB": 0.199401_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "ANWB": 0.173628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "ANWB": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "ANWB": 0.159834_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "ANWB": 0.16799_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "ANWB": 0.179557_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "ANWB": 0.209106_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "ANWB": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.314267</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "ANWB": 0.314267_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "ANWB": 0.240154_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "ANWB": 0.249181_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "ANWB": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "ANWB": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "ANWB": 0.249084_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "ANWB": 0.269739_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "ANWB": 0.295596_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "ANWB": 0.314267_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "ANWB": 0.290635_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "ANWB": 0.273417_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "ANWB": 0.26583_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "ANWB": 0.252157_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.233527</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="22">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.263914</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ANWB": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "ANWB": 0.255824_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "ANWB": 0.253404_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "ANWB": 0.240977_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "ANWB": 0.230075_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "ANWB": 0.212905_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "ANWB": 0.241134_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "ANWB": 0.223722_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "ANWB": 0.216015_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "ANWB": 0.216426_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "ANWB": 0.217685_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "ANWB": 0.235217_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "ANWB": 0.238968_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "ANWB": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "ANWB": 0.27113_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "ANWB": 0.285215_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "ANWB": 0.288578_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "ANWB": 0.264257_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "ANWB": 0.28179_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "ANWB": 0.318187_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "ANWB": 0.339229_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "ANWB": 0.348316_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "ANWB": 0.321297_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "ANWB": 0.284985_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "ANWB": 0.281137_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "ANWB": 0.267452_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "ANWB": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "ANWB": 0.212905_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.28179</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "ANWB": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.318187</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.212905</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">EVO</S>
+              <Obj N="Value" RefId="23">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="24">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "EVO": 0.226626_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "EVO": 0.222839_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "EVO": 0.221932_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "EVO": 0.216063_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "EVO": 0.222258_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "EVO": 0.199401_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "EVO": 0.173628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "EVO": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "EVO": 0.159834_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "EVO": 0.16799_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "EVO": 0.179557_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "EVO": 0.209106_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "EVO": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.314267</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "EVO": 0.314267_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "EVO": 0.240154_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "EVO": 0.249181_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "EVO": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "EVO": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "EVO": 0.249084_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "EVO": 0.269739_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "EVO": 0.295596_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "EVO": 0.314267_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "EVO": 0.290635_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "EVO": 0.273417_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "EVO": 0.26583_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "EVO": 0.252157_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.233527</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="25">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.263914</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EVO": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "EVO": 0.255824_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "EVO": 0.253404_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "EVO": 0.240977_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "EVO": 0.230075_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "EVO": 0.212905_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "EVO": 0.241134_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "EVO": 0.223722_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "EVO": 0.216015_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "EVO": 0.216426_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "EVO": 0.217685_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "EVO": 0.235217_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "EVO": 0.238968_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "EVO": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "EVO": 0.27113_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "EVO": 0.285215_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "EVO": 0.288578_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "EVO": 0.264257_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "EVO": 0.28179_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "EVO": 0.318187_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "EVO": 0.339229_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "EVO": 0.348316_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "EVO": 0.321297_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "EVO": 0.284985_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "EVO": 0.281137_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "EVO": 0.267452_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "EVO": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "EVO": 0.212905_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.28179</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "EVO": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.318187</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.212905</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">EZ</S>
+              <Obj N="Value" RefId="26">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="27">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "EZ": 0.197828_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "EZ": 0.173628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "EZ": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "EZ": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "EZ": 0.173628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "EZ": 0.173628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "EZ": 0.209928_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.161528</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "EZ": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "EZ": 0.161528_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.318828</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "EZ": 0.318828_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "EZ": 0.234128_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "EZ": 0.246228_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "EZ": 0.270428_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "EZ": 0.270428_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "EZ": 0.246228_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "EZ": 0.270428_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "EZ": 0.294628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "EZ": 0.318828_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "EZ": 0.294628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "EZ": 0.270428_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "EZ": 0.270428_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "EZ": 0.246228_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.23312</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="28">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.264882</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EZ": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "EZ": 0.258328_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "EZ": 0.258328_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "EZ": 0.246228_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "EZ": 0.234128_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "EZ": 0.209928_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "EZ": 0.246228_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "EZ": 0.258328_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "EZ": 0.222028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "EZ": 0.234128_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "EZ": 0.234128_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.343028</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "EZ": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "EZ": 0.161528_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.343028</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "EZ": 0.270428_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "EZ": 0.282528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "EZ": 0.294628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "EZ": 0.282528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "EZ": 0.318828_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "EZ": 0.343028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "EZ": 0.343028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "EZ": 0.318828_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "EZ": 0.282528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "EZ": 0.282528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "EZ": 0.270428_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "EZ": 0.343028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "EZ": 0.343028_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "EZ": 0.209928_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.282528</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.161528</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "EZ": 0.343028_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "EZ": 0.343028_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.318828</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.209928</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">EE</S>
+              <Obj N="Value" RefId="29">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="30">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "EE": 0.236306_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "EE": 0.232519_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "EE": 0.231611_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "EE": 0.225743_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "EE": 0.231938_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "EE": 0.209081_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "EE": 0.183308_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "EE": 0.171208_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "EE": 0.169514_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "EE": 0.177669_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "EE": 0.189237_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "EE": 0.218785_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.169514</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "EE": 0.169514_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.323946</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "EE": 0.323946_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "EE": 0.249834_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "EE": 0.25886_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "EE": 0.281596_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "EE": 0.281596_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "EE": 0.258764_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "EE": 0.279418_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "EE": 0.305276_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "EE": 0.323946_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "EE": 0.300315_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "EE": 0.283097_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "EE": 0.27551_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "EE": 0.261837_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.243207</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="31">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.273593</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "EE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "EE": 0.265503_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "EE": 0.263083_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "EE": 0.250657_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "EE": 0.239754_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "EE": 0.222585_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "EE": 0.250814_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "EE": 0.233402_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "EE": 0.225694_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "EE": 0.226106_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "EE": 0.227364_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "EE": 0.244897_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "EE": 0.248648_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.357996</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "EE": 0.169514_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.357996</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "EE": 0.28081_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "EE": 0.294894_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "EE": 0.298258_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "EE": 0.273937_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "EE": 0.29147_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "EE": 0.327867_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "EE": 0.348909_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "EE": 0.357996_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "EE": 0.330976_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "EE": 0.294664_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "EE": 0.290816_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "EE": 0.277131_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "EE": 0.357996_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "EE": 0.222585_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.29147</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.169514</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "EE": 0.357996_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.327867</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.222585</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">NE</S>
+              <Obj N="Value" RefId="32">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="33">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "NE": 0.227537_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "NE": 0.223749_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "NE": 0.222842_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "NE": 0.216973_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "NE": 0.223169_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "NE": 0.200312_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "NE": 0.174539_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "NE": 0.162439_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "NE": 0.160745_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "NE": 0.1689_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "NE": 0.180468_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "NE": 0.210016_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.160745</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "NE": 0.160745_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.315177</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "NE": 0.315177_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "NE": 0.241065_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "NE": 0.250091_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "NE": 0.272827_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "NE": 0.272827_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "NE": 0.249994_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "NE": 0.270649_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "NE": 0.296507_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "NE": 0.315177_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "NE": 0.291546_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "NE": 0.274327_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "NE": 0.266741_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "NE": 0.253068_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.234438</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="34">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.264824</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "NE": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "NE": 0.256734_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "NE": 0.254314_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "NE": 0.241887_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "NE": 0.230985_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "NE": 0.213815_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "NE": 0.242045_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "NE": 0.224633_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "NE": 0.216925_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "NE": 0.217336_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "NE": 0.218595_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "NE": 0.236128_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "NE": 0.239879_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.349226</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "NE": 0.160745_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.349226</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "NE": 0.272041_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "NE": 0.286125_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "NE": 0.289489_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "NE": 0.265168_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "NE": 0.282701_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "NE": 0.319097_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "NE": 0.340139_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "NE": 0.349226_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "NE": 0.322207_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "NE": 0.285895_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "NE": 0.282047_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "NE": 0.268362_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "NE": 0.349226_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "NE": 0.213815_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.282701</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.160745</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "NE": 0.349226_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.319097</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.213815</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">ZG</S>
+              <Obj N="Value" RefId="35">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="36">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "ZG": 0.226626_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "ZG": 0.222839_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "ZG": 0.221932_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "ZG": 0.216063_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "ZG": 0.222258_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "ZG": 0.199401_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "ZG": 0.173628_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "ZG": 0.161528_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "ZG": 0.159834_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "ZG": 0.16799_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "ZG": 0.179557_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "ZG": 0.209106_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "ZG": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.314267</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "ZG": 0.314267_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "ZG": 0.240154_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "ZG": 0.249181_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "ZG": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "ZG": 0.271917_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "ZG": 0.249084_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "ZG": 0.269739_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "ZG": 0.295596_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "ZG": 0.314267_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "ZG": 0.290635_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "ZG": 0.273417_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "ZG": 0.26583_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "ZG": 0.252157_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.233527</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="37">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.263914</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "ZG": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "ZG": 0.255824_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "ZG": 0.253404_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "ZG": 0.240977_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "ZG": 0.230075_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "ZG": 0.212905_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "ZG": 0.241134_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "ZG": 0.223722_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "ZG": 0.216015_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "ZG": 0.216426_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "ZG": 0.217685_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "ZG": 0.235217_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "ZG": 0.238968_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "ZG": 0.159834_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.348316</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "ZG": 0.27113_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "ZG": 0.285215_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "ZG": 0.288578_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "ZG": 0.264257_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "ZG": 0.28179_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "ZG": 0.318187_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "ZG": 0.339229_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "ZG": 0.348316_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "ZG": 0.321297_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "ZG": 0.284985_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "ZG": 0.281137_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "ZG": 0.267452_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "ZG": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "ZG": 0.212905_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.28179</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.159834</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "ZG": 0.348316_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.318187</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.212905</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">TI</S>
+              <Obj N="Value" RefId="38">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="39">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "TI": 0.227226_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "TI": 0.223439_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "TI": 0.222531_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "TI": 0.216663_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "TI": 0.222858_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "TI": 0.200001_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "TI": 0.174228_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "TI": 0.162128_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "TI": 0.160434_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "TI": 0.168589_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "TI": 0.180157_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "TI": 0.209705_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.160434</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "TI": 0.160434_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.314866</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "TI": 0.314866_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "TI": 0.240754_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "TI": 0.24978_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "TI": 0.272516_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "TI": 0.272516_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "TI": 0.249684_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "TI": 0.270338_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "TI": 0.296196_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "TI": 0.314866_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "TI": 0.291235_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "TI": 0.274017_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "TI": 0.26643_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "TI": 0.252757_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.234127</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="40">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.264513</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "TI": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "TI": 0.256423_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "TI": 0.254003_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "TI": 0.241577_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "TI": 0.230674_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "TI": 0.213505_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "TI": 0.241734_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "TI": 0.224322_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "TI": 0.216614_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "TI": 0.217026_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "TI": 0.218284_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "TI": 0.235817_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "TI": 0.239568_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.348916</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "TI": 0.160434_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.348916</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "TI": 0.27173_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "TI": 0.285814_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "TI": 0.289178_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "TI": 0.264857_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "TI": 0.28239_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "TI": 0.318787_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "TI": 0.339829_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "TI": 0.348916_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "TI": 0.321896_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "TI": 0.285584_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "TI": 0.281736_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "TI": 0.268051_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "TI": 0.348916_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "TI": 0.213505_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.28239</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.160434</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "TI": 0.348916_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.318787</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.213505</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">FR</S>
+              <Obj N="Value" RefId="41">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Tomorrow</S>
+                    <Obj N="Value" RefId="42">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 01:00:00",_x000D__x000A_    "FR": 0.230846_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 02:00:00",_x000D__x000A_    "FR": 0.227059_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 03:00:00",_x000D__x000A_    "FR": 0.226151_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 04:00:00",_x000D__x000A_    "FR": 0.220283_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 05:00:00",_x000D__x000A_    "FR": 0.226478_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 10:00:00",_x000D__x000A_    "FR": 0.203621_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 11:00:00",_x000D__x000A_    "FR": 0.177848_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 12:00:00",_x000D__x000A_    "FR": 0.165748_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 13:00:00",_x000D__x000A_    "FR": 0.164054_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 14:00:00",_x000D__x000A_    "FR": 0.172209_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 15:00:00",_x000D__x000A_    "FR": 0.183777_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 16:00:00",_x000D__x000A_    "FR": 0.213325_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.164054</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "FR": 0.164054_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.318486</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 19:00:00",_x000D__x000A_  "FR": 0.318486_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 00:00:00",_x000D__x000A_    "FR": 0.244374_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 06:00:00",_x000D__x000A_    "FR": 0.2534_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 07:00:00",_x000D__x000A_    "FR": 0.276136_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 08:00:00",_x000D__x000A_    "FR": 0.276136_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 09:00:00",_x000D__x000A_    "FR": 0.253304_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 17:00:00",_x000D__x000A_    "FR": 0.273958_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 18:00:00",_x000D__x000A_    "FR": 0.299816_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 19:00:00",_x000D__x000A_    "FR": 0.318486_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 20:00:00",_x000D__x000A_    "FR": 0.294855_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 21:00:00",_x000D__x000A_    "FR": 0.277637_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 22:00:00",_x000D__x000A_    "FR": 0.27005_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-24 23:00:00",_x000D__x000A_    "FR": 0.256377_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.237747</Db>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="43">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_average</S>
+                          <Db N="Value">0.268133</Db>
+                        </En>
+                        <En>
+                          <S N="Key">hours_below_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": null,_x000D__x000A_    "FR": null_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 00:00:00",_x000D__x000A_    "FR": 0.260043_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 01:00:00",_x000D__x000A_    "FR": 0.257623_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 02:00:00",_x000D__x000A_    "FR": 0.245197_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 03:00:00",_x000D__x000A_    "FR": 0.234294_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 04:00:00",_x000D__x000A_    "FR": 0.217125_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 05:00:00",_x000D__x000A_    "FR": 0.245354_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 10:00:00",_x000D__x000A_    "FR": 0.227942_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 11:00:00",_x000D__x000A_    "FR": 0.220234_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 12:00:00",_x000D__x000A_    "FR": 0.220646_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 13:00:00",_x000D__x000A_    "FR": 0.221904_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 14:00:00",_x000D__x000A_    "FR": 0.239437_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 15:00:00",_x000D__x000A_    "FR": 0.243188_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_highest</S>
+                          <Sg N="Value">0.352536</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-24 13:00:00",_x000D__x000A_  "FR": 0.164054_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_highest</S>
+                          <Sg N="Value">0.352536</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_above_average</S>
+                          <S N="Value">[_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 06:00:00",_x000D__x000A_    "FR": 0.27535_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 07:00:00",_x000D__x000A_    "FR": 0.289434_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 08:00:00",_x000D__x000A_    "FR": 0.292798_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 09:00:00",_x000D__x000A_    "FR": 0.268477_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 16:00:00",_x000D__x000A_    "FR": 0.28601_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 17:00:00",_x000D__x000A_    "FR": 0.322407_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 18:00:00",_x000D__x000A_    "FR": 0.343449_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 19:00:00",_x000D__x000A_    "FR": 0.352536_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 20:00:00",_x000D__x000A_    "FR": 0.325516_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 21:00:00",_x000D__x000A_    "FR": 0.289204_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 22:00:00",_x000D__x000A_    "FR": 0.285356_x000D__x000A_  },_x000D__x000A_  {_x000D__x000A_    "Date": "2023-03-23 23:00:00",_x000D__x000A_    "FR": 0.271671_x000D__x000A_  }_x000D__x000A_]</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "FR": 0.352536_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">hours_lowest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 04:00:00",_x000D__x000A_  "FR": 0.217125_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.28601</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_future_lowest</S>
+                          <Sg N="Value">0.164054</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">hours_future_highest</S>
+                          <S N="Value">{_x000D__x000A_  "Date": "2023-03-23 19:00:00",_x000D__x000A_  "FR": 0.352536_x000D__x000A_}</S>
+                        </En>
+                        <En>
+                          <S N="Key">price_next</S>
+                          <Sg N="Value">0.322407</Sg>
+                        </En>
+                        <En>
+                          <S N="Key">price_lowest</S>
+                          <Sg N="Value">0.217125</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+          </DCT>
+        </Obj>
+      </En>
+      <En>
+        <S N="Key">gas</S>
+        <Obj N="Value" RefId="44">
+          <TNRef RefId="0" />
+          <DCT>
+            <En>
+              <S N="Key">MDE</S>
+              <Obj N="Value" RefId="45">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="46">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.149829</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">VON</S>
+              <Obj N="Value" RefId="47">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="48">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.156611</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">AIP</S>
+              <Obj N="Value" RefId="49">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="50">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.157821</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">GSL</S>
+              <Obj N="Value" RefId="51">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="52">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.149829</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">ANWB</S>
+              <Obj N="Value" RefId="53">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="54">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.149829</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">EOD</S>
+              <Obj N="Value" RefId="55">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="56">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.385</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">EVO</S>
+              <Obj N="Value" RefId="57">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="58">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.149829</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">EGSI</S>
+              <Obj N="Value" RefId="59">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="60">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">0.392077</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">EZ</S>
+              <Obj N="Value" RefId="61">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="62">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.149829</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">EE</S>
+              <Obj N="Value" RefId="63">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="64">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.196357</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">NE</S>
+              <Obj N="Value" RefId="65">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="66">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.195509</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">ZG</S>
+              <Obj N="Value" RefId="67">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="68">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.149829</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">ZP</S>
+              <Obj N="Value" RefId="69">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="70">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.117071</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+            <En>
+              <S N="Key">FR</S>
+              <Obj N="Value" RefId="71">
+                <TNRef RefId="0" />
+                <DCT>
+                  <En>
+                    <S N="Key">Today</S>
+                    <Obj N="Value" RefId="72">
+                      <TNRef RefId="0" />
+                      <DCT>
+                        <En>
+                          <S N="Key">price_current</S>
+                          <Sg N="Value">1.138368</Sg>
+                        </En>
+                      </DCT>
+                    </Obj>
+                  </En>
+                </DCT>
+              </Obj>
+            </En>
+          </DCT>
+        </Obj>
+      </En>
+    </DCT>
+  </Obj>
+</Objs>

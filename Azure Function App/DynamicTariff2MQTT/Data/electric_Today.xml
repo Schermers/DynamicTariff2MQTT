@@ -1,0 +1,485 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Date">2023-03-23 00:00:00</S>
+      <Sg N="Exchange">0.06793</Sg>
+      <Sg N="AIP">0.264893</Sg>
+      <Sg N="ANWB">0.255824</Sg>
+      <Sg N="EE">0.265503</Sg>
+      <Sg N="EVO">0.255824</Sg>
+      <Sg N="EZ">0.258328</Sg>
+      <Sg N="FR">0.260043</Sg>
+      <Sg N="GSL">0.255824</Sg>
+      <Sg N="MDE">0.255824</Sg>
+      <Sg N="NE">0.256734</Sg>
+      <Sg N="TI">0.256423</Sg>
+      <Sg N="VON">0.266103</Sg>
+      <Sg N="ZG">0.255824</Sg>
+      <Sg N="ZP">0.237643</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 01:00:00</S>
+      <Sg N="Exchange">0.06593</Sg>
+      <Sg N="AIP">0.262473</Sg>
+      <Sg N="ANWB">0.253404</Sg>
+      <Sg N="EE">0.263083</Sg>
+      <Sg N="EVO">0.253404</Sg>
+      <Sg N="EZ">0.258328</Sg>
+      <Sg N="FR">0.257623</Sg>
+      <Sg N="GSL">0.253404</Sg>
+      <Sg N="MDE">0.253404</Sg>
+      <Sg N="NE">0.254314</Sg>
+      <Sg N="TI">0.254003</Sg>
+      <Sg N="VON">0.263683</Sg>
+      <Sg N="ZG">0.253404</Sg>
+      <Sg N="ZP">0.235223</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 02:00:00</S>
+      <Sg N="Exchange">0.05566</Sg>
+      <Sg N="AIP">0.250047</Sg>
+      <Sg N="ANWB">0.240977</Sg>
+      <Sg N="EE">0.250657</Sg>
+      <Sg N="EVO">0.240977</Sg>
+      <Sg N="EZ">0.246228</Sg>
+      <Sg N="FR">0.245197</Sg>
+      <Sg N="GSL">0.240977</Sg>
+      <Sg N="MDE">0.240977</Sg>
+      <Sg N="NE">0.241887</Sg>
+      <Sg N="TI">0.241577</Sg>
+      <Sg N="VON">0.251257</Sg>
+      <Sg N="ZG">0.240977</Sg>
+      <Sg N="ZP">0.222796</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 03:00:00</S>
+      <Sg N="Exchange">0.04665</Sg>
+      <Sg N="AIP">0.239144</Sg>
+      <Sg N="ANWB">0.230075</Sg>
+      <Sg N="EE">0.239754</Sg>
+      <Sg N="EVO">0.230075</Sg>
+      <Sg N="EZ">0.234128</Sg>
+      <Sg N="FR">0.234294</Sg>
+      <Sg N="GSL">0.230075</Sg>
+      <Sg N="MDE">0.230075</Sg>
+      <Sg N="NE">0.230985</Sg>
+      <Sg N="TI">0.230674</Sg>
+      <Sg N="VON">0.240354</Sg>
+      <Sg N="ZG">0.230075</Sg>
+      <Sg N="ZP">0.211894</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 04:00:00</S>
+      <Sg N="Exchange">0.03246</Sg>
+      <Sg N="AIP">0.221975</Sg>
+      <Sg N="ANWB">0.212905</Sg>
+      <Sg N="EE">0.222585</Sg>
+      <Sg N="EVO">0.212905</Sg>
+      <Sg N="EZ">0.209928</Sg>
+      <Sg N="FR">0.217125</Sg>
+      <Sg N="GSL">0.212905</Sg>
+      <Sg N="MDE">0.212905</Sg>
+      <Sg N="NE">0.213815</Sg>
+      <Sg N="TI">0.213505</Sg>
+      <Sg N="VON">0.223185</Sg>
+      <Sg N="ZG">0.212905</Sg>
+      <Sg N="ZP">0.194724</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="5">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 05:00:00</S>
+      <Sg N="Exchange">0.05579</Sg>
+      <Sg N="AIP">0.250204</Sg>
+      <Sg N="ANWB">0.241134</Sg>
+      <Sg N="EE">0.250814</Sg>
+      <Sg N="EVO">0.241134</Sg>
+      <Sg N="EZ">0.246228</Sg>
+      <Sg N="FR">0.245354</Sg>
+      <Sg N="GSL">0.241134</Sg>
+      <Sg N="MDE">0.241134</Sg>
+      <Sg N="NE">0.242045</Sg>
+      <Sg N="TI">0.241734</Sg>
+      <Sg N="VON">0.251414</Sg>
+      <Sg N="ZG">0.241134</Sg>
+      <Sg N="ZP">0.222954</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 06:00:00</S>
+      <Sg N="Exchange">0.08058</Sg>
+      <Sg N="AIP">0.2802</Sg>
+      <Sg N="ANWB">0.27113</Sg>
+      <Sg N="EE">0.28081</Sg>
+      <Sg N="EVO">0.27113</Sg>
+      <Sg N="EZ">0.270428</Sg>
+      <Sg N="FR">0.27535</Sg>
+      <Sg N="GSL">0.27113</Sg>
+      <Sg N="MDE">0.27113</Sg>
+      <Sg N="NE">0.272041</Sg>
+      <Sg N="TI">0.27173</Sg>
+      <Sg N="VON">0.28141</Sg>
+      <Sg N="ZG">0.27113</Sg>
+      <Sg N="ZP">0.25295</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="7">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 07:00:00</S>
+      <Sg N="Exchange">0.09222</Sg>
+      <Sg N="AIP">0.294284</Sg>
+      <Sg N="ANWB">0.285215</Sg>
+      <Sg N="EE">0.294894</Sg>
+      <Sg N="EVO">0.285215</Sg>
+      <Sg N="EZ">0.282528</Sg>
+      <Sg N="FR">0.289434</Sg>
+      <Sg N="GSL">0.285215</Sg>
+      <Sg N="MDE">0.285215</Sg>
+      <Sg N="NE">0.286125</Sg>
+      <Sg N="TI">0.285814</Sg>
+      <Sg N="VON">0.295494</Sg>
+      <Sg N="ZG">0.285215</Sg>
+      <Sg N="ZP">0.267034</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 08:00:00</S>
+      <Sg N="Exchange">0.095</Sg>
+      <Sg N="AIP">0.297648</Sg>
+      <Sg N="ANWB">0.288578</Sg>
+      <Sg N="EE">0.298258</Sg>
+      <Sg N="EVO">0.288578</Sg>
+      <Sg N="EZ">0.294628</Sg>
+      <Sg N="FR">0.292798</Sg>
+      <Sg N="GSL">0.288578</Sg>
+      <Sg N="MDE">0.288578</Sg>
+      <Sg N="NE">0.289489</Sg>
+      <Sg N="TI">0.289178</Sg>
+      <Sg N="VON">0.298858</Sg>
+      <Sg N="ZG">0.288578</Sg>
+      <Sg N="ZP">0.270398</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="9">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 09:00:00</S>
+      <Sg N="Exchange">0.0749</Sg>
+      <Sg N="AIP">0.273327</Sg>
+      <Sg N="ANWB">0.264257</Sg>
+      <Sg N="EE">0.273937</Sg>
+      <Sg N="EVO">0.264257</Sg>
+      <Sg N="EZ">0.258328</Sg>
+      <Sg N="FR">0.268477</Sg>
+      <Sg N="GSL">0.264257</Sg>
+      <Sg N="MDE">0.264257</Sg>
+      <Sg N="NE">0.265168</Sg>
+      <Sg N="TI">0.264857</Sg>
+      <Sg N="VON">0.274537</Sg>
+      <Sg N="ZG">0.264257</Sg>
+      <Sg N="ZP">0.246077</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 10:00:00</S>
+      <Sg N="Exchange">0.0414</Sg>
+      <Sg N="AIP">0.232792</Sg>
+      <Sg N="ANWB">0.223722</Sg>
+      <Sg N="EE">0.233402</Sg>
+      <Sg N="EVO">0.223722</Sg>
+      <Sg N="EZ">0.222028</Sg>
+      <Sg N="FR">0.227942</Sg>
+      <Sg N="GSL">0.223722</Sg>
+      <Sg N="MDE">0.223722</Sg>
+      <Sg N="NE">0.224633</Sg>
+      <Sg N="TI">0.224322</Sg>
+      <Sg N="VON">0.234002</Sg>
+      <Sg N="ZG">0.223722</Sg>
+      <Sg N="ZP">0.205542</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="11">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 11:00:00</S>
+      <Sg N="Exchange">0.03503</Sg>
+      <Sg N="AIP">0.225084</Sg>
+      <Sg N="ANWB">0.216015</Sg>
+      <Sg N="EE">0.225694</Sg>
+      <Sg N="EVO">0.216015</Sg>
+      <Sg N="EZ">0.222028</Sg>
+      <Sg N="FR">0.220234</Sg>
+      <Sg N="GSL">0.216015</Sg>
+      <Sg N="MDE">0.216015</Sg>
+      <Sg N="NE">0.216925</Sg>
+      <Sg N="TI">0.216614</Sg>
+      <Sg N="VON">0.226294</Sg>
+      <Sg N="ZG">0.216015</Sg>
+      <Sg N="ZP">0.197834</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 12:00:00</S>
+      <Sg N="Exchange">0.03537</Sg>
+      <Sg N="AIP">0.225496</Sg>
+      <Sg N="ANWB">0.216426</Sg>
+      <Sg N="EE">0.226106</Sg>
+      <Sg N="EVO">0.216426</Sg>
+      <Sg N="EZ">0.222028</Sg>
+      <Sg N="FR">0.220646</Sg>
+      <Sg N="GSL">0.216426</Sg>
+      <Sg N="MDE">0.216426</Sg>
+      <Sg N="NE">0.217336</Sg>
+      <Sg N="TI">0.217026</Sg>
+      <Sg N="VON">0.226706</Sg>
+      <Sg N="ZG">0.216426</Sg>
+      <Sg N="ZP">0.198246</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="13">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 13:00:00</S>
+      <Sg N="Exchange">0.03641</Sg>
+      <Sg N="AIP">0.226754</Sg>
+      <Sg N="ANWB">0.217685</Sg>
+      <Sg N="EE">0.227364</Sg>
+      <Sg N="EVO">0.217685</Sg>
+      <Sg N="EZ">0.222028</Sg>
+      <Sg N="FR">0.221904</Sg>
+      <Sg N="GSL">0.217685</Sg>
+      <Sg N="MDE">0.217685</Sg>
+      <Sg N="NE">0.218595</Sg>
+      <Sg N="TI">0.218284</Sg>
+      <Sg N="VON">0.227964</Sg>
+      <Sg N="ZG">0.217685</Sg>
+      <Sg N="ZP">0.199504</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 14:00:00</S>
+      <Sg N="Exchange">0.0509</Sg>
+      <Sg N="AIP">0.244287</Sg>
+      <Sg N="ANWB">0.235217</Sg>
+      <Sg N="EE">0.244897</Sg>
+      <Sg N="EVO">0.235217</Sg>
+      <Sg N="EZ">0.234128</Sg>
+      <Sg N="FR">0.239437</Sg>
+      <Sg N="GSL">0.235217</Sg>
+      <Sg N="MDE">0.235217</Sg>
+      <Sg N="NE">0.236128</Sg>
+      <Sg N="TI">0.235817</Sg>
+      <Sg N="VON">0.245497</Sg>
+      <Sg N="ZG">0.235217</Sg>
+      <Sg N="ZP">0.217037</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="15">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 15:00:00</S>
+      <Sg N="Exchange">0.054</Sg>
+      <Sg N="AIP">0.248038</Sg>
+      <Sg N="ANWB">0.238968</Sg>
+      <Sg N="EE">0.248648</Sg>
+      <Sg N="EVO">0.238968</Sg>
+      <Sg N="EZ">0.234128</Sg>
+      <Sg N="FR">0.243188</Sg>
+      <Sg N="GSL">0.238968</Sg>
+      <Sg N="MDE">0.238968</Sg>
+      <Sg N="NE">0.239879</Sg>
+      <Sg N="TI">0.239568</Sg>
+      <Sg N="VON">0.249248</Sg>
+      <Sg N="ZG">0.238968</Sg>
+      <Sg N="ZP">0.220788</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 16:00:00</S>
+      <Sg N="Exchange">0.08939</Sg>
+      <Sg N="AIP">0.29086</Sg>
+      <Sg N="ANWB">0.28179</Sg>
+      <Sg N="EE">0.29147</Sg>
+      <Sg N="EVO">0.28179</Sg>
+      <Sg N="EZ">0.282528</Sg>
+      <Sg N="FR">0.28601</Sg>
+      <Sg N="GSL">0.28179</Sg>
+      <Sg N="MDE">0.28179</Sg>
+      <Sg N="NE">0.282701</Sg>
+      <Sg N="TI">0.28239</Sg>
+      <Sg N="VON">0.29207</Sg>
+      <Sg N="ZG">0.28179</Sg>
+      <Sg N="ZP">0.26361</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="17">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 17:00:00</S>
+      <Sg N="Exchange">0.11947</Sg>
+      <Sg N="AIP">0.327257</Sg>
+      <Sg N="ANWB">0.318187</Sg>
+      <Sg N="EE">0.327867</Sg>
+      <Sg N="EVO">0.318187</Sg>
+      <Sg N="EZ">0.318828</Sg>
+      <Sg N="FR">0.322407</Sg>
+      <Sg N="GSL">0.318187</Sg>
+      <Sg N="MDE">0.318187</Sg>
+      <Sg N="NE">0.319097</Sg>
+      <Sg N="TI">0.318787</Sg>
+      <Sg N="VON">0.328467</Sg>
+      <Sg N="ZG">0.318187</Sg>
+      <Sg N="ZP">0.300007</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 18:00:00</S>
+      <Sg N="Exchange">0.13686</Sg>
+      <Sg N="AIP">0.348299</Sg>
+      <Sg N="ANWB">0.339229</Sg>
+      <Sg N="EE">0.348909</Sg>
+      <Sg N="EVO">0.339229</Sg>
+      <Sg N="EZ">0.343028</Sg>
+      <Sg N="FR">0.343449</Sg>
+      <Sg N="GSL">0.339229</Sg>
+      <Sg N="MDE">0.339229</Sg>
+      <Sg N="NE">0.340139</Sg>
+      <Sg N="TI">0.339829</Sg>
+      <Sg N="VON">0.349509</Sg>
+      <Sg N="ZG">0.339229</Sg>
+      <Sg N="ZP">0.321048</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="19">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 19:00:00</S>
+      <Sg N="Exchange">0.14437</Sg>
+      <Sg N="AIP">0.357386</Sg>
+      <Sg N="ANWB">0.348316</Sg>
+      <Sg N="EE">0.357996</Sg>
+      <Sg N="EVO">0.348316</Sg>
+      <Sg N="EZ">0.343028</Sg>
+      <Sg N="FR">0.352536</Sg>
+      <Sg N="GSL">0.348316</Sg>
+      <Sg N="MDE">0.348316</Sg>
+      <Sg N="NE">0.349226</Sg>
+      <Sg N="TI">0.348916</Sg>
+      <Sg N="VON">0.358596</Sg>
+      <Sg N="ZG">0.348316</Sg>
+      <Sg N="ZP">0.330136</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 20:00:00</S>
+      <Sg N="Exchange">0.12204</Sg>
+      <Sg N="AIP">0.330366</Sg>
+      <Sg N="ANWB">0.321297</Sg>
+      <Sg N="EE">0.330976</Sg>
+      <Sg N="EVO">0.321297</Sg>
+      <Sg N="EZ">0.318828</Sg>
+      <Sg N="FR">0.325516</Sg>
+      <Sg N="GSL">0.321297</Sg>
+      <Sg N="MDE">0.321297</Sg>
+      <Sg N="NE">0.322207</Sg>
+      <Sg N="TI">0.321896</Sg>
+      <Sg N="VON">0.331576</Sg>
+      <Sg N="ZG">0.321297</Sg>
+      <Sg N="ZP">0.303116</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="21">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 21:00:00</S>
+      <Sg N="Exchange">0.09203</Sg>
+      <Sg N="AIP">0.294054</Sg>
+      <Sg N="ANWB">0.284985</Sg>
+      <Sg N="EE">0.294664</Sg>
+      <Sg N="EVO">0.284985</Sg>
+      <Sg N="EZ">0.282528</Sg>
+      <Sg N="FR">0.289204</Sg>
+      <Sg N="GSL">0.284985</Sg>
+      <Sg N="MDE">0.284985</Sg>
+      <Sg N="NE">0.285895</Sg>
+      <Sg N="TI">0.285584</Sg>
+      <Sg N="VON">0.295264</Sg>
+      <Sg N="ZG">0.284985</Sg>
+      <Sg N="ZP">0.266804</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 22:00:00</S>
+      <Sg N="Exchange">0.08885</Sg>
+      <Sg N="AIP">0.290206</Sg>
+      <Sg N="ANWB">0.281137</Sg>
+      <Sg N="EE">0.290816</Sg>
+      <Sg N="EVO">0.281137</Sg>
+      <Sg N="EZ">0.282528</Sg>
+      <Sg N="FR">0.285356</Sg>
+      <Sg N="GSL">0.281137</Sg>
+      <Sg N="MDE">0.281137</Sg>
+      <Sg N="NE">0.282047</Sg>
+      <Sg N="TI">0.281736</Sg>
+      <Sg N="VON">0.291416</Sg>
+      <Sg N="ZG">0.281137</Sg>
+      <Sg N="ZP">0.262956</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="23">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-23 23:00:00</S>
+      <Sg N="Exchange">0.07754</Sg>
+      <Sg N="AIP">0.276521</Sg>
+      <Sg N="ANWB">0.267452</Sg>
+      <Sg N="EE">0.277131</Sg>
+      <Sg N="EVO">0.267452</Sg>
+      <Sg N="EZ">0.270428</Sg>
+      <Sg N="FR">0.271671</Sg>
+      <Sg N="GSL">0.267452</Sg>
+      <Sg N="MDE">0.267452</Sg>
+      <Sg N="NE">0.268362</Sg>
+      <Sg N="TI">0.268051</Sg>
+      <Sg N="VON">0.277731</Sg>
+      <Sg N="ZG">0.267452</Sg>
+      <Sg N="ZP">0.249271</Sg>
+    </MS>
+  </Obj>
+</Objs>

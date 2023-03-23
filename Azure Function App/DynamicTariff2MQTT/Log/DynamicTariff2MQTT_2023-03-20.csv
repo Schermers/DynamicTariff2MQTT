@@ -1,0 +1,5 @@
+"Date";"Time";"Script";"ScriptVersion";"Event"
+"2023-03-20";"21:11:48";"";;"M2MQtt module loaded"
+"2023-03-20";"21:11:48";"";;"Default MQTT port selected"
+"2023-03-20";"21:11:48";"";;"No MQTT server defined! Stop script"
+"2023-03-20";"21:12:47";"";;"Publish message to MQTT server 1883 - Todays prices"
