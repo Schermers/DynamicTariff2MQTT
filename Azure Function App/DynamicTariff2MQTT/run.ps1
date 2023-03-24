@@ -1,11 +1,9 @@
 using namespace System.Net
 
 # Input bindings are passed in via param block.
-#param($Request, $TriggerMetadata)
 param($Timer)
 
 # Write to the Azure Functions log stream.
-Write-Host "PowerShell HTTP trigger function processed a request."
 $retainData = 1 # 0 = False, 1 = true
 
 # Define script var to its name
@@ -16,7 +14,7 @@ function Write-Log {
     param(
         [string]$value
     )
-    Write-Output "$(Get-Date -Format 'yyyy-MM-dd HH:mm') | $($value)"
+    Write-Host "$(Get-Date -Format 'yyyy-MM-dd HH:mm') | $($value)"
     # Write log to file
     if($env:EnableLog) {
         [pscustomobject]@{
@@ -344,7 +342,7 @@ function Get-DataValid {
         [string]$day
     )
     # Declare variable
-    $validData = $false
+    [bool]$validData = $false
 
     # Check based on energytype
     switch($energyType) {
@@ -463,11 +461,16 @@ function Get-StoredPrices {
         $data = Import-Clixml ".\DynamicTariff2MQTT\Data\$($energyType)_$($day).xml"
 
         # Check if data is up-to-date
+        Write-Log "Get-StoredPrices | Check if prices are up-to-date"
         $validData = Get-DataValid -energyData $data -energyType $energyType -day $day
-        if(!$validData) {
+        Write-Log "Get-StoredPrices | Result: $validData"
+        if($validData) {
+            Write-Log "Get-StoredPrices | Data is up-to-date"
+        }
+        else {
             Write-Log "Get-StoredPrices | Data is out-dated, remove stored prices and retrieve new ones"
             Remove-Item -Path ".\DynamicTariff2MQTT\Data\$($energyType)_$($day).xml"
-            #$data = Update-Prices -energyType $energyType -day $day
+            $data = Update-Prices -energyType $energyType -day $day
         }
     }
     else {
@@ -601,8 +604,4 @@ Publish-RawStatistics -totalStatisticsData $totalStatistics
 # Disconnect MQTT
 $MQTTobject.Disconnect()
 
-# Associate values to output bindings by calling 'Push-OutputBinding'.
-Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
-    StatusCode = [HttpStatusCode]::OK
-    Body = $body
-})
+Write-Log "End of function app"

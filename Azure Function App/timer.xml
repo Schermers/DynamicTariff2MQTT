@@ -1,0 +1,46 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Collections.Hashtable</T>
+      <T>System.Object</T>
+    </TN>
+    <DCT>
+      <En>
+        <S N="Key">Schedule</S>
+        <Obj N="Value" RefId="1">
+          <TNRef RefId="0" />
+          <DCT>
+            <En>
+              <S N="Key">AdjustForDST</S>
+              <B N="Value">true</B>
+            </En>
+          </DCT>
+        </Obj>
+      </En>
+      <En>
+        <S N="Key">IsPastDue</S>
+        <B N="Value">false</B>
+      </En>
+      <En>
+        <S N="Key">ScheduleStatus</S>
+        <Obj N="Value" RefId="2">
+          <TNRef RefId="0" />
+          <DCT>
+            <En>
+              <S N="Key">LastUpdated</S>
+              <DT N="Value">2023-03-24T17:05:01.0044702+01:00</DT>
+            </En>
+            <En>
+              <S N="Key">Next</S>
+              <DT N="Value">2023-03-24T17:09:00+01:00</DT>
+            </En>
+            <En>
+              <S N="Key">Last</S>
+              <DT N="Value">0001-01-01T00:00:00</DT>
+            </En>
+          </DCT>
+        </Obj>
+      </En>
+    </DCT>
+  </Obj>
+</Objs>
