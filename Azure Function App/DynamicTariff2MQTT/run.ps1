@@ -1,17 +1,16 @@
 using namespace System.Net
 
 # Input bindings are passed in via param block.
-param($Request, $TriggerMetadata)
-#param($Timer)
+#param($Request, $TriggerMetadata)
+param($Timer)
 
 # Write to the Azure Functions log stream.
 Write-Host "PowerShell HTTP trigger function processed a request."
 $retainData = 1 # 0 = False, 1 = true
 
-if(!($env:EnableLog)) {
-    $env:EnableLog = $false
-}
+# Define script var to its name
 $script = $MyInvocation.MyCommand.Name
+
 # Write Log function
 function Write-Log {
     param(
@@ -29,7 +28,13 @@ function Write-Log {
         } | Export-Csv -Path ".\DynamicTariff2MQTT\Log\DynamicTariff2MQTT_$(Get-Date -Format "yyyy-MM-dd").csv" -Delimiter ';' -Append -Encoding utf8 -NoTypeInformation
     }
 }
-
+# Set timezone to West Europe
+$timeZone = 'W. Europe Standard Time'
+if((Get-TimeZone).Id -ne $timeZone) {
+    Write-Log "Current timezone: $((Get-TimeZone).Id), will be changed to $timeZone"
+    # Change timezone to West europe
+    Set-TimeZone -Id $timeZone
+}
 function Get-CurrentHourPrice {
     param (
         [Parameter(Mandatory=$True,HelpMessage="Energy data as array")]
