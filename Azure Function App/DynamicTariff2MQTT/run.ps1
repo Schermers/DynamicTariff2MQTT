@@ -205,11 +205,21 @@ function Get-Statistics {
             }
         }
         'gas' {
-            # return current statistics
+            
             [pscustomobject]$statisticsData = @{
                 Today = @{
-                    price_current = $energyDataToday."$energySupplierName"
+                    price_current = $energyDataToday[0]."$energySupplierName"
                 }
+            }
+            # return current statistics
+            if($energyDataToday.length -gt 1) {
+                Write-Log "Get-Statistics | Gas price of tomorrow is available, add it to the statistics"
+                [pscustomobject]$statisticsDataTomorrow = @{
+                    Tomorrow = @{
+                        price = $energyDataToday[1]."$energySupplierName"
+                    }
+                }
+                $statisticsData += $statisticsDataTomorrow
             }
         }
     }
@@ -370,8 +380,9 @@ function Get-DataValid {
             }
         }
         'gas'{
+            Write-Log "Get-DataValid | Date: $($energyData.Date)"
             # Verify if data is up to date
-            if((Get-Date) -ge $energyData.Date -and (Get-Date) -lt (Get-Date $energyData.Date).AddDays(1)) {
+            if((Get-Date) -ge $energyData[0].Date -and (Get-Date) -lt (Get-Date $energyData[0].Date).AddDays(1)) {
                 Write-Log "Get-DataValid | Data is valid"
                 $validData = $true
             }
@@ -432,6 +443,10 @@ function Update-Prices {
         }
         else {
             Write-Log "Update-Prices | Data is not up to date, remove stored prices as well and return null"
+            if($env:EnableLog) {
+                # Export data for debugging
+                $data | Export-Clixml -Path ".\DynamicTariff2MQTT\Data\debug_$($energyType)_$($day).xml" -Force
+            }
             Remove-Item -Path ".\DynamicTariff2MQTT\Data\$($energyType)_$($day).xml"
             $data = $null
         }
@@ -454,7 +469,7 @@ function Get-StoredPrices {
         [ValidateSet("Today", "Tomorrow")]
         [string]$day
     )
-    Write-Log "Get-StoredPrices | Retrieve all prices from disk"
+    Write-Log "Get-StoredPrices | Retrieve $energyType prices $day from disk"
     # Load stored prices
     if(Test-Path -Path ".\DynamicTariff2MQTT\Data\$($energyType)_$($day).xml") {
         Write-Log "Get-StoredPrices | Get stored $energyType prices of $day"
@@ -546,50 +561,60 @@ switch($(Get-Date -Format 'HH')) {
 }
 
 Write-Log "Publish electric statistics"
-# Publish electric topics
 [pscustomobject]$totalElectricStatistics = @{}
-Write-Log "Publish message to MQTT server $env:MQTTserver:$env:MQTTport - Todays prices"
-$energySuppliers = $dataToday | Get-Member -MemberType NoteProperty | Where-Object Name -ne 'Date'
-foreach($energySupplier in $energySuppliers.Name) {
-    # If the filter is empty, process ALL energy suppliers, if it is set, only process the filtered one and the Exchange
-    if(!($env:ElectricSupplierFilter) -or $env:ElectricSupplierFilter -eq $energySupplier -or $energySupplier -eq "Exchange") {
-        Write-Log "Collect statistics of $energySupplier electric"
-        $electricStatistics = Get-Statistics -energyDataToday $dataToday -energyDataTomorrow $dataTomorrow -energySupplierName $energySupplier -energyType electric
-
-        #$statistics | Export-Clixml -Path ".\DynamicTariff2MQTT\Log\statistics.xml"
-
-        Write-Log "Publish statistics of $energySupplier today"
-        Publish-Statistics -statisticsData $electricStatistics.today -energyType electric -day Today -energySupplierName $energySupplier
-        if($dataTomorrow) {
-            Write-Log "Publish statistics of $energySupplier tomorrow"
-            Publish-Statistics -statisticsData $electricStatistics.tomorrow -energyType electric -day Tomorrow -energySupplierName $energySupplier
+# Publish electric topics
+if($dataToday) {
+    Write-Log "Publish message to MQTT server $env:MQTTserver:$env:MQTTport - Todays prices"
+    $energySuppliers = $dataToday | Get-Member -MemberType NoteProperty | Where-Object Name -ne 'Date'
+    foreach($energySupplier in $energySuppliers.Name) {
+        # If the filter is empty, process ALL energy suppliers, if it is set, only process the filtered one and the Exchange
+        if(!($env:ElectricSupplierFilter) -or $env:ElectricSupplierFilter -eq $energySupplier -or $energySupplier -eq "Exchange") {
+            Write-Log "Collect statistics of $energySupplier electric"
+            $electricStatistics = Get-Statistics -energyDataToday $dataToday -energyDataTomorrow $dataTomorrow -energySupplierName $energySupplier -energyType electric
+    
+            #$statistics | Export-Clixml -Path ".\DynamicTariff2MQTT\Log\statistics.xml"
+    
+            Write-Log "Publish statistics of $energySupplier today"
+            Publish-Statistics -statisticsData $electricStatistics.today -energyType electric -day Today -energySupplierName $energySupplier
+            if($dataTomorrow) {
+                Write-Log "Publish statistics of $energySupplier tomorrow"
+                Publish-Statistics -statisticsData $electricStatistics.tomorrow -energyType electric -day Tomorrow -energySupplierName $energySupplier
+            }
+            # Add statistiscs to total var
+            [PSCustomObject]$entry = @{
+                $energySupplier = $electricStatistics
+            }
+            $totalElectricStatistics += $entry
         }
-        # Add statistiscs to total var
-        [PSCustomObject]$entry = @{
-            $energySupplier = $electricStatistics
-        }
-        $totalElectricStatistics += $entry
-    }
+    }    
+}
+else{
+    Write-Log "Publish Electrc statistics | Error - no data loaded"
 }
 
 Write-Log "Publish gas statistics"
 [pscustomobject]$totalGasStatistics = @{}
-$energySuppliers = $dataGas | Get-Member -MemberType NoteProperty | Where-Object Name -ne 'Date'
-foreach($energySupplier in $energySuppliers.Name) {
-    # If the filter is empty, process ALL energy suppliers, if it is set, only process the filtered one and the Exchange
-    if(!($env:GasSupplierFilter) -or $env:GasSupplierFilter -eq $energySupplier -or $energySupplier -eq "EGSI" -or $energySupplier -eq "EOD") {
-        Write-Log "Collect statistics of $energySupplier gas"
-        $gasStatistics = Get-Statistics -energyDataToday $dataGas -energySupplierName $energySupplier -energyType gas
+    if($dataGas) {
+    $energySuppliers = $dataGas | Get-Member -MemberType NoteProperty | Where-Object Name -ne 'Date'
+    foreach($energySupplier in $energySuppliers.Name) {
+        # If the filter is empty, process ALL energy suppliers, if it is set, only process the filtered one and the Exchange
+        if(!($env:GasSupplierFilter) -or $env:GasSupplierFilter -eq $energySupplier -or $energySupplier -eq "EGSI" -or $energySupplier -eq "EOD") {
+            Write-Log "Collect statistics of $energySupplier gas"
+            $gasStatistics = Get-Statistics -energyDataToday $dataGas -energySupplierName $energySupplier -energyType gas
 
-        Write-Log "Publish statistics of $energySupplier gas"
-        Publish-Statistics -statisticsData $gasStatistics.Today -energyType gas -day Today -energySupplierName $energySupplier
+            Write-Log "Publish statistics of $energySupplier gas"
+            Publish-Statistics -statisticsData $gasStatistics.Today -energyType gas -day Today -energySupplierName $energySupplier
 
-        # Add statistiscs to total var
-        [PSCustomObject]$entry = @{
-            $energySupplier = $gasStatistics
+            # Add statistiscs to total var
+            [PSCustomObject]$entry = @{
+                $energySupplier = $gasStatistics
+            }
+            $totalGasStatistics += $entry
         }
-        $totalGasStatistics += $entry
     }
+}
+else{
+    Write-Log "Publish Gas statistics | Error - no data loaded"
 }
 
 Write-Log "Publish total statistics"

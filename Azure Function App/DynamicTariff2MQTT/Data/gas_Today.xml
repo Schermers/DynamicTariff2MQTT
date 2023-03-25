@@ -5,21 +5,41 @@
       <T>System.Object</T>
     </TN>
     <MS>
-      <S N="Date">2023-03-24 06:00:00</S>
-      <Sg N="AIP">1.183142</Sg>
-      <Sg N="ANWB">1.175149</Sg>
-      <Sg N="EE">1.212753</Sg>
-      <Sg N="EGSI">0.413003</Sg>
-      <Sg N="EOD">0.42</Sg>
-      <Sg N="EVO">1.175149</Sg>
-      <Sg N="EZ">1.175149</Sg>
-      <Sg N="FR">1.180718</Sg>
-      <Sg N="GSL">1.175149</Sg>
-      <Sg N="MDE">1.175149</Sg>
-      <Sg N="NE">1.22083</Sg>
-      <Sg N="VON">1.181932</Sg>
-      <Sg N="ZG">1.175149</Sg>
-      <Sg N="ZP">1.142392</Sg>
+      <S N="Date">2023-03-25 06:00:00</S>
+      <Sg N="AIP">1.173449</Sg>
+      <Sg N="ANWB">1.165456</Sg>
+      <Sg N="EE">1.21124</Sg>
+      <Sg N="EGSI">0.404992</Sg>
+      <Sg N="EOD">0.399</Sg>
+      <Sg N="EVO">1.165456</Sg>
+      <Sg N="EZ">1.165456</Sg>
+      <Sg N="FR">1.155308</Sg>
+      <Sg N="GSL">1.165456</Sg>
+      <Sg N="MDE">1.165456</Sg>
+      <Sg N="NE">1.211136</Sg>
+      <Sg N="VON">1.172239</Sg>
+      <Sg N="ZG">1.165456</Sg>
+      <Sg N="ZP">1.132699</Sg>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Date">2023-03-26 06:00:00</S>
+      <Sg N="AIP">1.173449</Sg>
+      <Sg N="ANWB">1.165456</Sg>
+      <Sg N="EE">1.21124</Sg>
+      <Sg N="EGSI">0.404992</Sg>
+      <Sg N="EOD">0.399</Sg>
+      <Sg N="EVO">1.165456</Sg>
+      <Sg N="EZ">1.165456</Sg>
+      <Sg N="FR">1.155308</Sg>
+      <Sg N="GSL">1.165456</Sg>
+      <Sg N="MDE">1.165456</Sg>
+      <Sg N="NE">1.211136</Sg>
+      <Sg N="VON">1.172239</Sg>
+      <Sg N="ZG">1.165456</Sg>
+      <Sg N="ZP">1.132699</Sg>
     </MS>
   </Obj>
 </Objs>
