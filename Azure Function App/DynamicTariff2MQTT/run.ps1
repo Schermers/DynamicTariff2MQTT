@@ -408,7 +408,27 @@ function Update-Prices {
     switch("$energyType $day") {
         "electric Today" {
             Write-Log "Update-Prices | Get electric prices of today"
-            $rawData = Invoke-RestMethod -Method Get -Uri "https://enever.nl/api/stroomprijs_vandaag.php?token=$($env:EneverAPItoken)"
+            $validData = $false
+            # If it is 00 hour and prices of Today are processed, check wether prices of tomorrow fullfill
+            if($(Get-Date -Format 'HH') -eq '00') {
+                Write-Log "Update-Prices | It is midnight, retrieve prices of 'tomorrow'"
+                $data = Get-StoredPrices -energyType $energyType -day 'Tomorrow' -validateData $False
+                Write-Log "Update-Prices | Check if prices are up-to-date"
+                $validData = Get-DataValid -energyData $data -energyType $energyType -day $day
+            }
+
+            # Do not get new values if prices of tomorrow are used
+            if($validData) {
+                Write-Log "Update-Prices | Data of tomorrow are used for today"
+                $rawData = $null
+            }
+            else {
+                # If data is not valid (if checked) then be sure $data is empty
+                $data = $null
+                Write-Log "Update-Prices | Retrieve new values"
+                $rawData = Invoke-RestMethod -Method Get -Uri "https://enever.nl/api/stroomprijs_vandaag.php?token=$($env:EneverAPItoken)"
+            }
+            
         }
         "electric Tomorrow" {
             Write-Log "Update-Prices | Get electric prices of tomorrow"
@@ -451,6 +471,11 @@ function Update-Prices {
             $data = $null
         }
     }
+    elseif($data) {
+        # Export data
+        Write-Log "Update-Prices | Data of tomorrow can be used for today, write to disk"
+        $data | Export-Clixml -Path ".\DynamicTariff2MQTT\Data\$($energyType)_$($day).xml" -Force
+    }
     else {
         Write-Log "Update-Prices | No prices retrieved, return null"
         $data = $null
@@ -467,7 +492,9 @@ function Get-StoredPrices {
         [string]$energyType,
         [Parameter(Mandatory=$True,HelpMessage="Today or Tomorrow")]
         [ValidateSet("Today", "Tomorrow")]
-        [string]$day
+        [string]$day,
+        [Parameter(Mandatory=$False,HelpMessage="Wether you want to verify data")]
+        [bool]$validateData = $true
     )
     Write-Log "Get-StoredPrices | Retrieve $energyType prices $day from disk"
     # Load stored prices
@@ -476,16 +503,20 @@ function Get-StoredPrices {
         $data = Import-Clixml ".\DynamicTariff2MQTT\Data\$($energyType)_$($day).xml"
 
         # Check if data is up-to-date
-        Write-Log "Get-StoredPrices | Check if prices are up-to-date"
-        $validData = Get-DataValid -energyData $data -energyType $energyType -day $day
-        Write-Log "Get-StoredPrices | Result: $validData"
-        if($validData) {
-            Write-Log "Get-StoredPrices | Data is up-to-date"
+        if($validateData) {
+            Write-Log "Get-StoredPrices | Validate data and check if prices are up-to-date"
+            $validData = Get-DataValid -energyData $data -energyType $energyType -day $day
+            if($validData) {
+                Write-Log "Get-StoredPrices | Data is up-to-date"
+            }
+            else {
+                Write-Log "Get-StoredPrices | Data is out-dated, remove stored prices and retrieve new ones"
+                Remove-Item -Path ".\DynamicTariff2MQTT\Data\$($energyType)_$($day).xml"
+                $data = Update-Prices -energyType $energyType -day $day
+            }
         }
         else {
-            Write-Log "Get-StoredPrices | Data is out-dated, remove stored prices and retrieve new ones"
-            Remove-Item -Path ".\DynamicTariff2MQTT\Data\$($energyType)_$($day).xml"
-            $data = Update-Prices -energyType $energyType -day $day
+            Write-Log "Get-StoredPrices | Do not validate data"
         }
     }
     else {
@@ -535,11 +566,25 @@ else{
     $MQTTobject.Connect([guid]::NewGuid()) 
 }
 
+switch($(Get-Date -Format 'HH')) {
+    "00" {
+        Write-Log "It is midnight, update today's prices"
+        $dataToday = Update-Prices -energyType 'electric' -day 'Today'
+        Remove-Item -Path ".\DynamicTariff2MQTT\Data\electric_tomorrow.xml"
+        $dataTomorrow = $null
+
+        # Replace tomorrow data
+        Publish-RawPrices -energyData $dataTomorrow -energyType electric -day Tomorrow
+    }
+}
+
 # Load electric prices tomorrow
 $dataToday = Get-StoredPrices -energyType 'electric' -day 'Today'
 $dataTomorrow = Get-StoredPrices -energyType 'electric' -day 'Tomorrow'
 $dataGas = Get-StoredPrices -energyType 'gas' -day 'Today'
 
+<#
+Those actions are not necessary anymore since the data will be checked every hour (if it is not up-to-date, it will retrieve new prices already)
 switch($(Get-Date -Format 'HH')) {
     "00" {
         Write-Log "It is midnight, update today's prices"
@@ -559,6 +604,7 @@ switch($(Get-Date -Format 'HH')) {
         $dataTomorrow = Update-Prices -energyType 'electric' -day 'Tomorrow'
     }
 }
+#>
 
 Write-Log "Publish electric statistics"
 [pscustomobject]$totalElectricStatistics = @{}
