@@ -316,30 +316,6 @@ function Convert-DataArray {
     # Return array
     return $newDataArray
 }
-# function OLD-Convert-DataArray {
-#     param(
-#         [Parameter(Mandatory=$True,HelpMessage="Old data array")]
-#         [array]$DataArray
-#     )
-#     # Loop through each column
-#     foreach($column in ($DataArray | Get-Member -MemberType NoteProperty)) {
-#         # It is either a Date (Get-Date) or a price value
-#         switch($column.Name) {
-#             "Date" {
-#                 # Replace each string for a Date object
-#                 foreach($row in $DataArray) {
-#                     $DataArray[[array]::indexof($DataArray."$($column.Name)",$row."$($column.Name)")]."$($column.Name)" = Get-Date $row.Date -format 'yyyy-MM-dd HH:mm:ss'
-#                 }
-#             }
-#             default {
-#                 # Replace each string for a float object
-#                 foreach($row in $DataArray) {
-#                     $DataArray[[array]::indexof($DataArray."$($column.Name)",$row."$($column.Name)")]."$($column.Name)" = [float]$row."$($column.Name)"
-#                 }
-#             }
-#         }
-#     }
-# }
 function Get-DataValid {
     param(
         [Parameter(Mandatory=$True,HelpMessage="Energy data as array")]
