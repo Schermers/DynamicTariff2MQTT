@@ -19,14 +19,21 @@ This function app does retrieve its data from enever.nl. You can easily request 
 https://enever.nl/prijzenfeeds/
 
 # How to use it
-You can deploy this Function app within your Azure environment or deploy it as docker container.
-You need to define the following variables:
-- MQTTserver
-- MQTTuser
-- MQTTpassword
-- EneverAPItoken
+## Prerequisites
+1. Enever.nl [API token](https://enever.nl/prijzenfeeds/)
+1. [Docker-Compose (or docker)](https://docs.docker.com/compose/)
+1. You need an Azure functions container. More info: [Azure Functions Powershell](https://hub.docker.com/_/microsoft-azure-functions-powershell)
+## Azure function app (PowerShell)
+This function app will run the script every hour.
+Look at the [docker-comopose.yml](docker-compose.yml) for the docker setup that contains:
+1. Azure Functions container
+1. Azureite (storage account emulator)
+## Next steps
+1. Download the [Function Apps](Function%20Apps) folder to '/home/{USER}/Function Apps'
+1. Download the [.env.azfunc](.env.azfunc) file next to your **docker-compose.yml** file
+1. Update the **.env.azfunc** file with its environment variables (like Enever API token, MQTT server, etc)
 
-Optional:
+# Optional
 - ElectricSupplier <If you want to apply a filter on energy supplier (ZP e.g.)>
 - GasSupplier <If you want to apply a filter on energy supplier (ZP e.g.)>
 - EnableLog <Debug loggin>
